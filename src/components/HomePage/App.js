@@ -2,6 +2,9 @@ import "./App.css";
 import Header from "../Header/Header";
 import { Link } from 'react-router-dom';
 
+//remove testing only 
+import Menu from '../Menu/Menu.js'
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +19,7 @@ function App() {
           <button>
             <Link to='/menu'>View Menu</Link>
           </button>
+
         </div>
       </div>
     </div>
