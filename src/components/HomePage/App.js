@@ -1,5 +1,6 @@
-import Header from "../Header/Header";
 import "./App.css";
+import Header from "../Header/Header";
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
         />
         <div className="home-text">
           <p>Hey l'ottimo cibo!</p>
-          <button>View Menu</button>
+          <button>
+            <Link to='/menu'>View Menu</Link>
+          </button>
         </div>
       </div>
     </div>
