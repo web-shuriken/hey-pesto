@@ -1,6 +1,9 @@
 import Header from "../Header/Header";
 import "./App.css";
 
+//remove testing only 
+import Menu from '../Menu/Menu.js'
+
 function App() {
   return (
     <div className="App">
@@ -13,6 +16,7 @@ function App() {
         <div className="home-text">
           <p>Hey l'ottimo cibo!</p>
           <button>View Menu</button>
+
         </div>
       </div>
     </div>
