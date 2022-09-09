@@ -1,15 +1,22 @@
 import React from 'react'
 import './DishCard.css';
 
-export default function DishCard({dish}) {
-  return (
+export default function DishCard({item}) {
+
+  console.log(`item with dishcard >`, item)
+
+  return ( 
     <article class="dish-card">
-      <img src={dish.image} class="dish-card-img" alt={dish.name} />
-      <h3 class="dish-card-title">{dish.name}</h3>
-      <div class="dish-card-excerpt">
-        <p>{dish.excerpt}</p>
-      </div>
-      <p class="dish-card-price">£<span>{dish.price}</span></p>
-    </article>
+      {item ?
+      <>
+        <img src={item.image} className="dish-card-img" alt={item.title} />
+        <h3 className="dish-card-title">{item.title}</h3>
+        <div className="dish-card-excerpt">
+          {/* <p>{item.excerpt}</p> */}
+        </div>
+        <p className="dish-card-price"><span>{item.price}</span></p>
+      </>
+      : null }
+    </article> 
   )
 }
