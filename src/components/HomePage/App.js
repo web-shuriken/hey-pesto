@@ -1,11 +1,10 @@
+import Header from '../Header/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hey Pesto</p>
-      </header>
+      <Header/>
     </div>
   );
 }
