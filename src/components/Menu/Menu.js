@@ -25,6 +25,8 @@ export default function Menu() {
   //   }
   // ]
 
+  
+
   const [data,setData] = useState();
 
   const url = `http://localhost:5000/menu`
@@ -58,6 +60,7 @@ useEffect(()=> {
       </div> 
       : null }
 
+      
     </section>
   )
 }
