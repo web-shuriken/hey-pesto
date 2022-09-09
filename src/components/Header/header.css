@@ -1,7 +1,7 @@
 .App-header {
   display: flex;
   background-color: #c0c781;
-  position: relative;
+  /* position: relative; */
 }
 
 .App-header p {
