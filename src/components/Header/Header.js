@@ -9,7 +9,7 @@ export default function Header({ handleClick, open, setOpen }) {
       <p>
         <Link to="/">Hey Pesto</Link>
       </p>
-      <FaShoppingCart size={30} />
+      <FaShoppingCart size={30} onClick={handleClick} />
     </header>
   );
 }
