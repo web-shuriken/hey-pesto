@@ -1,16 +1,15 @@
 import React from 'react'
 import './DishCard.css';
-import Pasta from '../../images/italian-dish.jpg'
 
-export default function DishCard() {
+export default function DishCard({dish}) {
   return (
     <article class="dish-card">
-      <img src={Pasta} class="dish-card-img" alt="name of the dish" />
-      <h3 class="dish-card-title">Dish name</h3>
+      <img src={dish.image} class="dish-card-img" alt={dish.name} />
+      <h3 class="dish-card-title">{dish.name}</h3>
       <div class="dish-card-excerpt">
-        <p>A little something about the dish</p>
+        <p>{dish.excerpt}</p>
       </div>
-      <p class="dish-card-price">£<span>9.99</span></p>
+      <p class="dish-card-price">£<span>{dish.price}</span></p>
     </article>
   )
 }

@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   align-items: center;
-  gap: .4rem;
+  column-gap: .4rem;
   border: 2px solid #000;
   border-radius: .6rem;
   padding: .4rem;
@@ -23,6 +23,7 @@
 .dish-card-excerpt {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  align-self: start;
 }
 .dish-card-price {
   grid-column: 3 / 4;

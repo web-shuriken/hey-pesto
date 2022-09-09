@@ -1,0 +1,10 @@
+.menu {
+  padding: .4rem;
+}
+
+.menu-list {
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: .8rem;
+  margin: 1rem 0;
+}
