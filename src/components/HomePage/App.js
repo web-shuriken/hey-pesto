@@ -1,5 +1,6 @@
-import Header from "../Header/Header";
 import "./App.css";
+import Header from "../Header/Header";
+import { Link } from 'react-router-dom';
 
 //remove testing only 
 import Menu from '../Menu/Menu.js'
@@ -15,7 +16,9 @@ function App() {
         />
         <div className="home-text">
           <p>Hey l'ottimo cibo!</p>
-          <button>View Menu</button>
+          <button>
+            <Link to='/menu'>View Menu</Link>
+          </button>
 
         </div>
       </div>
