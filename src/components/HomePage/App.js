@@ -1,16 +1,12 @@
-<<<<<<< HEAD
 import Header from "../Header/Header";
 import * as React from "react";
 import "./App.css";
 import Cart from "../cart/cart";
-=======
-import "./App.css";
-import Header from "../Header/Header";
-import { Link } from 'react-router-dom';
 
-//remove testing only 
-import Menu from '../Menu/Menu.js'
->>>>>>> b391d5005a6ac0f47f595550079df7946630c756
+import { Link } from "react-router-dom";
+
+//remove testing only
+import Menu from "../Menu/Menu.js";
 
 function App() {
   const [open, setOpen] = React.useState(false);
@@ -30,9 +26,8 @@ function App() {
         <div className="home-text">
           <p>Hey l'ottimo cibo!</p>
           <button>
-            <Link to='/menu'>View Menu</Link>
+            <Link to="/menu">View Menu</Link>
           </button>
-
         </div>
       </div>
     </div>
