@@ -6,7 +6,7 @@ export default function DishCard({item}) {
   console.log(`item with dishcard >`, item)
 
   return ( 
-    <article class="dish-card">
+    <article className="dish-card">
       {item ?
       <>
         <img src={item.image} className="dish-card-img" alt={item.title} />
