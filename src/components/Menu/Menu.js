@@ -5,7 +5,7 @@ import './Menu.css';
 import DishCard from '../DishCard/DishCard'
 // import Pasta from '../../images/italian-dish.jpg'
 
-import Modal from "../components/Modal/Modal.js";
+
 
 
 export default function Menu() {
@@ -25,7 +25,7 @@ export default function Menu() {
   //   }
   // ]
 
-  const [modal, setModal] = useState(true);
+  
 
   const [data,setData] = useState();
 
@@ -60,7 +60,7 @@ useEffect(()=> {
       </div> 
       : null }
 
-      {modal && <Modal setModal={setModal} />}
+      
     </section>
   )
 }
