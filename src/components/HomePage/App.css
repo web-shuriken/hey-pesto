@@ -1,4 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+* {
+  font-family: "Caveat", cursive;
+}
+
 .App {
   text-align: center;
 }
 
+img[alt~="home-picture"] {
+  object-fit: contain;
+  width: 100vw;
+  z-index: 0;
+}
+
+.home-text {
+  border-radius: 15px;
+  border: 1px solid #0e402d;
+  background-color: #0e402d;
+  width: 50vw;
+  color: white;
+  z-index: 1;
+  font-weight: bold;
+  font-size: 30px;
+  margin: auto;
+  position: relative;
+  top: -150px;
+}
