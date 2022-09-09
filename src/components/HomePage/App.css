@@ -10,8 +10,8 @@
 img[alt~="home-picture"] {
   object-fit: cover;
   object-position: center;
-
   height: 90vh;
+  width: 100vw;
   z-index: 0;
 }
 
