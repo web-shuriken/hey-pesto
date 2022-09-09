@@ -11,6 +11,7 @@ function App() {
       />
       <div className="home-text">
         <p>Hey l'ottimo cibo!</p>
+        <button>View Menu</button>
       </div>
     </div>
   );
